@@ -37,10 +37,6 @@
 
   </a>
   <a href="https://github.com/sadiya-tech12/SADIYA-MD-V1">
-    <img src="https://img.shields.io/github/license/sadiya-tech12/SADIYA-MD-V1?color=purple&label=License&style=plastic">
-
-  </a>
-  <a href="https://github.com/sadiya-tech12/SADIYA-MD-V1">
     <img src="https://img.shields.io/github/languages/top/sadiya-tech12/SADIYA-MD-V1?color=purple&label=Javascript&style=plastic">
 
   </a>
