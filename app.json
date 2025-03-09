@@ -1,0 +1,34 @@
+{
+  "name": "SADIYA-MD",
+  "description": "Javascript WhatsApp Bot Made By Sadiya Tech",
+  "logo": "",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "multi-device", "sadiya-md"],
+  "success_url": "/",
+
+  "env": {
+    "DATABASE_REPO_NAME": {
+      "description": "Put Your Database Repo Name Here.",
+      "value": "SADIYA-MD-DATABASE",
+      "required": true
+    },
+    "GITHUB_AUTH_TOKEN": {
+      "description": "Put Your Github Auth Token Here.",
+      "required": true
+    },
+    "GITHUB_USER_NAME": {
+      "description": "Put Your Github User Name Here.",
+      "required": true
+    },
+    "SESSION_ID": {
+      "description": "Put the Session-ID You Got From Pair Or Scan Qr.",
+      "required": true
+    }
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
